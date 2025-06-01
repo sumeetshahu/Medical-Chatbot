@@ -2,6 +2,15 @@
 
 A Python-based medical chatbot application built with Streamlit and powered by OpenAI's GPT-4. This intelligent assistant helps users understand medical reports, provides health information, and answers medical-related questions while maintaining privacy and security standards.
 
+## 📱 Application Preview
+
+Here's what the medical chatbot interface looks like:
+
+![Application Screenshot1](app_snapshots/Main_Chatbot_Screen.png)
+
+![Application Screenshot2](app_snapshots/Sample_Prompt_Response.png)
+
+
 ## ⚠️ Important Disclaimer
 
 **This application is for informational purposes only and should not be used as a substitute for professional medical advice, diagnosis, or treatment. Always consult with qualified healthcare professionals for medical concerns.**
@@ -33,7 +42,15 @@ cd Medical-Chatbot
 
 ### 2. Set Up Python Environment
 
-It's recommended to use a virtual environment:
+It's recommended to use a virtual environment using venv or conda(preferred):
+
+```bash
+# Create virtual environment
+conda create --name myenv python=3.11
+
+# Activate virtual environment
+conda activate myenv
+```
 
 ```bash
 # Create virtual environment
